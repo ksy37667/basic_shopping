@@ -72,4 +72,4 @@ class LoginForm(forms.Form):
             if not check_password(password, shopuser.password):
                 self.add_error('password', '비밀번호를 틀렸습니다.')
             else:
-                self.user_id = shopuser.id
+                self.email = shopuser.email
