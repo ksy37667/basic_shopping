@@ -120,3 +120,10 @@ dmypy.json
 .pyre/
 
 # End of https://www.gitignore.io/api/django
+
+
+*.pyc
+db.sqlite3
+myvenv
+__pycache__
+local_settings.py
