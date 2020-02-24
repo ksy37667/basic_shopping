@@ -58,6 +58,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'shop_django.urls'
+STATIC_ROOT = '/'
 
 TEMPLATES = [
     {
